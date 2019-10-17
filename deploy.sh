@@ -19,6 +19,9 @@ echo "net.ipv4.ip_forward=1" >> /etc/sysctl.conf
 echo "enable en_US UTF8 locale"
 dpkg-reconfigure locales
 
+#enable SSHD
+systemctl enable ssh
+
 
 #install platformio
 wget https://raw.githubusercontent.com/platformio/platformio/develop/scripts/get-platformio.py
