@@ -1,0 +1,36 @@
+
+ ____                _ 
+|  _ \  _____      _(_)
+| | | |/ _ \ \ /\ / / |
+| |_| |  __/\ V  V /| |
+|____/ \___| \_/\_/ |_|
+                       
+
+AberSailbot Boat Dewi
+
+
+
+Notes:
+
+All code can be found in /home/pi/dewi
+
+Boatd was installed from /home/pi/dewi/boatd into /usr/local/lib/python3.9/dist-packages/boatd-3.2.0-py3.9.egg/boatd/
+
+The dewi-boatd-driver is installed in /home/pi/dewi/dewi-driver and symlinked to /usr/local/lib/python3.9/dist-packages
+
+    Run boatd:
+
+        sudo service boatd start
+
+    Check boatd is running:
+
+        service boatd status
+
+    Run the behaviour:
+
+        python /home/pi/dewi/dewi-behaviour/waypoint-behaviour
+
+    Waypoints file:
+
+        In /home/pi/dewi/waypoints
+
